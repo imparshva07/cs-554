@@ -1,0 +1,44 @@
+<!-- 
+Your page should have a few basic user interface elements:
+
+A header tag, with an h1 naming your site, with a title for your page. 
+A footer with your name, student ID, and any other info about yourself you wish to include
+A single div with an id of text_output.  
+Your page will have a form with the following:
+
+A label with a for attribute referencing your input
+A textarea element with a name and id attribute of text_to_analyze
+A button to submit the form
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>My Text Analyzer</title>
+   <link rel="stylesheet" href="/public/css/styles.css">
+ </head>
+ <body>
+   <header>
+     <h1>My Text Analyzer</h1>
+   </header>
+ 
+   <form id="analyzer_form">
+     <label for="text_to_analyze">Input:</label><br>
+     <textarea id="text_to_analyze" name="text_to_analyze" rows="5" cols="100"></textarea><br>
+     <button type="submit">Analyze Text</button>
+   </form>
+ 
+   <div id="text_output"></div>
+ 
+   <footer>
+     <p>Name: Parshva Shah</p>
+     <p>Student ID: 20027093</p>
+     <p>MS, Computer Science</p>
+   </footer>
+ 
+   <script src="/public/js/text_analyzer.js"></script>
+ </body>
+ </html>
+ 

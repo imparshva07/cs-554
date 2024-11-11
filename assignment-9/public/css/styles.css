@@ -1,0 +1,60 @@
+/*
+You will style your page using at least 5 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/  
+  header {
+    background-color: #494848;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  form {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #494848;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2c2727;
+  }
+  
+  #text_output {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #494848;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #494848;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  dt {
+    font-weight: 700;
+  }
+
+  

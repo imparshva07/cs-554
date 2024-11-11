@@ -1,0 +1,19 @@
+{
+  "name": "shah_parshva",
+  "version": "1.0.0",
+  "description": "Lab 8 by Parshva Shah 20027093",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Parshva Shah 20027093",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "md5": "^2.3.0"
+  }
+}

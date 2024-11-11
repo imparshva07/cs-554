@@ -1,0 +1,12 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "cs-546 Assignment-2 by Parshva Shah 20027093",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Parshva Shah 20027093",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "shah_parshva",
+  "version": "1.0.0",
+  "description": "lab-4 by Parshva Shah 20027093",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Parshva Shah 20027093",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  }
+}

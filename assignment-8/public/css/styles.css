@@ -1,0 +1,168 @@
+/*This file should have 10 CSS rulesets */
+
+body, h2, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333; 
+    padding: 20px;
+}
+
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 20px; 
+    color: #444444; 
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+li {
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+img {
+    border: 1px solid #cccccc;
+    margin-right: 10px;
+    width: 75px;
+    height: 117px;
+}
+
+#movie-title{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+a {
+    color: #007bff; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3; 
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #dddddd;
+    padding: 10px;
+    text-align: center;
+    color: #666666;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+dt {
+    flex: 0 0 50%;
+    margin: 0;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+dd {
+    flex: 0 0 50%;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+dl dt, dl dd {
+    display: inline;
+    margin-right: 10px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.not-found {
+    text-align: center;
+    font-size: 18px;
+    color: #ff0000;
+    margin-top: 20px;
+}
+
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#searchMoviesByName {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#submit-search {
+    padding: 10px 20px;
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit-search:hover {
+    background-color: #3c3cd1;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}

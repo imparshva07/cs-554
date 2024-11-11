@@ -1,0 +1,61 @@
+/*
+You must include 5 CSS rules that aply to your application
+*/
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+footer {
+    background-color:#deb887;
+    width:fit-content;
+    border: 1px solid #000000;
+    margin-top: 5px;
+    bottom:0%;
+}
+
+button {
+    background: #deb887;
+}
+
+#searchMovieForm {
+    display: flex;
+    justify-content: center;
+    font-weight:700 ;
+}
+
+#searchResults {
+    list-style:decimal;
+}
+
+#searchResults li {
+    padding: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#rootLink {
+    background-color: #f5a338;
+    border: 1px solid #000000;
+    margin-top: 5px;
+    justify-content: center;
+    left: 50%;
+    position: relative;
+}

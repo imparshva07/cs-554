@@ -1,0 +1,16 @@
+{
+  "name": "shah_parshva",
+  "version": "1.0.0",
+  "description": "lab 9 by Parshva Shah 20027093",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parshva Shah 20027093",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
